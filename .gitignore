@@ -27,6 +27,7 @@ bin
 include
 pip-selfcheck.json
 env/
+activate
 
 # Exclude IntelliJ stuff
 .idea
@@ -36,3 +37,5 @@ env/
 
 #Exclude settings stuff
 local_settings.py
+
+*.swp
